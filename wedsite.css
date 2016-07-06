@@ -1,0 +1,91 @@
+@font-face {
+    font-family: Gotham;
+    src: url(Gotham.ttf);
+}
+
+
+
+body{
+
+	font-family: Gotham, Helvetica, Arial, sans-serif;
+	font-size: 20px;
+ 	font-weight: bold;
+	
+	
+}
+
+a{
+	
+	text-decoration: none;
+	color: black;
+}
+
+a+#rsvp{
+	color: red;
+	
+}
+
+/**.picture{
+	
+	position: absolute;
+
+	right: 200px;
+	
+	
+	width: 200px;
+	height: 200px;
+}
+**/
+
+#container{
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	
+	width: 30%;
+	height: 30%;
+	padding: 300px;
+	
+}
+
+
+
+#pageOne{
+	
+	visibility: visible;
+	
+}
+
+#pageTwo{
+	
+	visibility: hidden;
+	
+}
+
+.top{
+	
+	position: absolute;
+	top: 100px;
+	
+}
+
+.middle{
+	position: absolute;
+	top: 200px;
+}
+
+.bottom{
+	position: absolute;
+	top: 500px;
+}
+
+#rsvp{
+	position: absolute;
+	color: red;
+	right: 220px;
+	top: 500px;
+	
+	
+	
+}
