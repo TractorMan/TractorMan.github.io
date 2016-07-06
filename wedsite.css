@@ -8,7 +8,7 @@
 body{
 
 	font-family: Gotham, Helvetica, Arial, sans-serif;
-	font-size: 20px;
+	font-size: 40px;
  	font-weight: bold;
 	
 	
@@ -75,16 +75,28 @@ a+#rsvp{
 	top: 200px;
 }
 
+.middle2{
+	position: absolute;
+	top: 140px;
+	right: 230px;
+}
+
 .bottom{
 	position: absolute;
 	top: 500px;
 }
 
+.bottom2{
+	position: absolute;
+	top: 450px;
+	left: 290px;
+}
+
 #rsvp{
 	position: absolute;
 	color: red;
-	right: 220px;
-	top: 500px;
+	right: 230px;
+	top: 450px;
 	
 	
 	
