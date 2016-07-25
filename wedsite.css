@@ -1,4 +1,18 @@
 
+@font-face{
+	
+	font-family: Dense;
+	src: url(dense.otf);
+	
+	
+}
+
+
+body{
+	
+
+}
+
 #pageOne{
 	
 	visibility: visible;
@@ -15,7 +29,7 @@
 
 .middle{
 	position: absolute;
-	top: 17%;
+	top:16%;
 	right: 27%;
 
 
@@ -28,8 +42,33 @@ img{
 	
 }
 
-.bermondsey{
+
+
+.text{
+	
+	position: absolute;
+	top: 79%;
+	left: 29%;
+	font-family: Dense;
+	font-size: 250%;
 	
 	
+	height: 10%;
+	width: 100%;
+}
+
+
+li{
+	margin-left: 5%;
+	display: inline;
+
+}
+
+a{
 	
+	color: black;
+	text-decoration: none;
+	
+	
+	/*#D4A0AD */
 }
