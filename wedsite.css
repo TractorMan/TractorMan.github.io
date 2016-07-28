@@ -1,91 +1,64 @@
-
-@font-face{
-	
-	font-family: Dense;
-	src: url(dense-webfont.woff);
-	
-	
+@font-face {
+  font-family: "Dense";
+  src: url(dense-webfont.woff);
 }
 
-
-
-#container{
-	
-	margin-left: auto;	
-	margin-right: auto;
-	margin-top: 5%;
-
-	width: 50%;
+body {
+  margin: 0;
 }
 
-#pageOne{
-	
-	display: visible;
-	
+.container {
+  padding: 0.5rem;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-#pageTwo{
-	
-	display: none;
-	
+.hero,
+.hero--back {
+  display: block;
+  width: 37.500rem;
+  margin: 0 auto;
 }
 
-
-
-
-
-img{
-	
-	height: 100%;
-	width: 100%;
-	min-height: 133.3px;
-	min-width: 200px;
-	max-height: 400px;
-	max-width: 600px;
-
-	
+.hero--back {
+  display: none;
 }
 
-
-
-.text{
-	
-	text-align: center;
-	
-	
+@media screen and ( max-width: 47.938em ) {
+  .hero {
+    width: auto;
+    max-width: 100%;
+  }
 }
 
-
-li{
-	display: inline;
-	list-style: none;
-	font-family: Dense sans-serif;
-	padding: 1em;
-
+.buttons {
+  display: table;
+  margin: 0 auto;
+  width: 37.500rem;
 }
 
-#rsvp{
-	
-	margin-left: -4%;
-	
+@media screen and ( max-width: 47.938em ) {
+  .buttons {
+    width: 100%;
+  }
 }
 
-#venue{
-
-	
+.button {
+  display: table-cell;
+  padding: 1rem;
+  width: 33.3333333%;
+  font-family: "Dense",sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  color: #303030;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
 }
 
-#gifts{
-
-}
-
-
-a{
-	font-family: Dense, sans-serif;
-	font-size: 200%;
-	color: black;
-	text-decoration: none;
-	
-	
-	/*#D4A0AD */
+@media screen and ( max-width: 47.938em ) {
+  .button{
+    display: block;
+    width: 100%;
+  }
 }
