@@ -20,10 +20,29 @@
     </div>
     <script src="jquery-1.12.4.min.js"></script>
     <script>
-        document.getElementById("container").onclick = function() {
-        document.getElementById("pageOne").style.display= "none";
-        document.getElementById("pageTwo").style.display ="inline";
-      }
+    		
+	var main = function(){
+		var i = 1;
+		$(".container").click(function(){
+			
+			if(i%2!=0)$(".hero").attr("src","back.jpg");
+			
+			else $(".hero").attr("src","front.jpg");
+			i++
+			
+			if(i==10){$(".hero").attr("src","1.jpg");
+			i=0}
+		});
+		
+		
+		
+	};		
+			
+			
+			
+	$(document).ready(main);	
+		
+		
     </script>
   </body>
 </html>
